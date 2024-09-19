@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agente Inteligente de Recursos Educativos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #00416A, #E4E5E6);
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header {
+            background: #006699;
+            padding: 30px;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .agent-container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .agent-description {
+            margin-bottom: 20px;
+        }
+
+        .agent-description h2 {
+            font-size: 2.5em;
+            color: #006699;
+        }
+
+        .agent-description p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .btn-start {
+            background-color: #006699;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn-start:hover {
+            background-color: #00416A;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .feature-box {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-box h3 {
+            font-size: 1.8em;
+            color: #00416A;
+        }
+
+        .feature-box p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #00416A;
+            color: white;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .chatbot-container {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .chatbot-frame {
+            width: 360px;
+            height: 600px;
+            background-color: rgb(48, 34, 68);
+            border-radius: 12px;
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>InspiraTEC: Un Agente Pedagógico Inteligente para la Gestión de contenidos en la Enseñanza de Tecnología e Informática.</h1>
+            <p>Explora la creación de recursos educativos de tecnología e informática de manera fácil y personalizada.</p>
+        </div>
+
+        
+
+        <div class="chatbot-container">
+            <iframe
+                title="INSPIRATEC"
+                id="caleida-chatbot-iframe_chatbox"
+                src="https://web-plugin.caleida.io/?project_id=e4e58614-29bb-4386-90d2-4e36d15e0fc4&verification_token=ac1faffe082f41fe9e3799b3cdfb0a7a&embedId=e4e58614-29bb-4386-90d2-4e36d15e0fc4&title=INSPIRATEC&skipLogin=true"
+                width="360px"
+                height="600px"
+                class="chatbot-frame"
+            ></iframe>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Agente Inteligente de Recursos Educativos | Desarrollado para mejorar la educación</p>
+        </footer>
+    </div>
+</body>
+</html>
